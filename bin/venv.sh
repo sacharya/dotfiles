@@ -18,7 +18,7 @@ else
 fi
 
 virtualenv ~/.env
-#source ~/.env/bin/activate
+source ~/.env/bin/activate
 
 
 
