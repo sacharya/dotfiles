@@ -1,0 +1,9 @@
+[user]
+	name = Sudarshan Acharya
+	email = info@sacharya.com
+[color]
+    ui = auto
+[core]
+    excludesfile = .gitignore_global
+[gitreview]
+    username = sacharya
