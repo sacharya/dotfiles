@@ -15,6 +15,7 @@ function link {
  ln -s $SRC/$1 $DST/$1
 }
 
+link .bashrc
 link .bash_profile
 link .vimrc
 link .git-bash-completion.sh
