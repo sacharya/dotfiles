@@ -3,10 +3,11 @@ export EDITOR="vi"
 source .git-bash-completion.sh
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-	source bin/venv.sh
+	#source ~/.includes/venv.sh
+	echo "Nothing to do right now..."
 elif [[ "$OSTYPE" == "darwin"* ]]; then
 	alias src="cd ~/Documents/"
-	source bin/java_env.sh
+	source ~/.includes/java_env.sh
 else
 	echo "Unsupported $OSTYPE"
 fi

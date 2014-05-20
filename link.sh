@@ -15,6 +15,7 @@ function link {
  ln -s $SRC/$1 $DST/$1
 }
 
+link .includes
 link .bashrc
 link .bash_profile
 link .vimrc
