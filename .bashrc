@@ -7,7 +7,7 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	echo "Nothing to do right now..."
 elif [[ "$OSTYPE" == "darwin"* ]]; then
 	alias src="cd ~/Documents/"
-	source ~/.includes/java_env.sh
+	source ~/.includes/my_env.sh
 else
 	echo "Unsupported $OSTYPE"
 fi

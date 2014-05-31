@@ -11,6 +11,8 @@ M2_HOME=/usr/java/apache-maven-3.0.3
 M2_REPO=~/.m2/repository
 M2=$M2_HOME/bin
 
-PATH=$JAVA_HOME/bin:$M2_HOME/bin:/bin:/opt/local/bin:$PATH  
-export JAVA_HOME JAVA_OPTS M2_HOME M2 MAVEN_OPTS PATH
+GO_HOME=/usr/install/go
+
+PATH=$GO_HOME/bin:$JAVA_HOME/bin:$M2_HOME/bin:/bin:/opt/local/bin:$PATH  
+export GO_HOME JAVA_HOME JAVA_OPTS M2_HOME M2 MAVEN_OPTS PATH
 
