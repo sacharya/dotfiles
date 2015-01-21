@@ -16,3 +16,5 @@ GOROOT=/usr/install/go
 PATH=$GOROOT/bin:$JAVA_HOME/bin:$M2_HOME/bin:/bin:/opt/local/bin:$PATH  
 export GOROOT JAVA_HOME JAVA_OPTS M2_HOME M2 MAVEN_OPTS PATH
 
+export GOPATH=/Users/sudarshan.acharya/Documents/MyLabs/golang
+

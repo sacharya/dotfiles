@@ -1,6 +1,6 @@
 export EDITOR="vi"
 
-source .git-bash-completion.sh
+source ~/.git-bash-completion.sh
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	#source ~/.includes/venv.sh
