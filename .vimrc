@@ -16,3 +16,7 @@ set smarttab
 set shiftwidth=2
 set tabstop=2
 
+" Golang support
+set rtp+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on
