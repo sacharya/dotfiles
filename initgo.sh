@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GO_VERSION="1.12.5"
+GO_VERSION="1.12.12"
 
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 
